@@ -1,0 +1,19 @@
+@mixin flexCenter {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+@mixin respond($screen) {
+  @if $screen == tab {
+    @media (min-width: 768px) {
+      @content;
+    }
+  }
+
+  @if $screen == desktop {
+    @media (min-width: 1360px) {
+      @content;
+    }
+  }
+}

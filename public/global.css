@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;900&display=swap');
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+	background-color: #FAFAFA;
+	font-family: 'Red Hat Display', sans-serif;
+	padding-top: 4.8rem;
+}
+
+@media (min-width: 1200px) {
+	body {
+		padding-top: 8rem;
+	}
+}
+
+::-webkit-scrollbar {
+  width: .8rem;
+}
+
+::-webkit-scrollbar-track {
+  background: #a3ebfd;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #4D96A9;
+	border-radius: .8rem;
+}
+
